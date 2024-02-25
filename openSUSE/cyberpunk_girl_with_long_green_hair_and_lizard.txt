@@ -1,0 +1,77 @@
+AI Tool: InvokeAI community edition
+
+Pipeline Notice:
+- Multiple base images has been used and remixed until this result came out
+- Minor Manual editing to remove some errors in the image
+
+Metadata:
+{
+  "generation_mode": "sdxl_img2img",
+  "positive_prompt": "beautiful girl with red lips, long green hair a (lizard on her shoulder)+ dressed with a leather jacket, a black top wearing glasses and smirking in digital art style",
+  "negative_prompt": "headset, big lips",
+  "width": 1024,
+  "height": 1024,
+  "seed": 2098160678,
+  "rand_device": "cpu",
+  "cfg_scale": 7.5,
+  "cfg_rescale_multiplier": 0,
+  "steps": 50,
+  "scheduler": "euler",
+  "model": {
+    "model_name": "stable-diffusion-xl-base-1-0",
+    "base_model": "sdxl",
+    "model_type": "main"
+  },
+  "strength": 0.75,
+  "init_image": "661d9a35-484b-47b1-a083-4bd9eccc7f40.png",
+  "positive_style_prompt": "beautiful girl with red lips, long green hair a (lizard on her shoulder)+ dressed with a leather jacket, a black top wearing glasses and smirking in digital art style",
+  "negative_style_prompt": "headset, big lips"
+}
+
+Base image 2 Metadata:
+
+{
+  "generation_mode": "sdxl_img2img",
+  "positive_prompt": "cyberpunk girl with green long hair, glasses, (lizard sitting on shoulder)++, leather jacket, smiling in a space station digital art style",
+  "negative_prompt": "headset, big lips",
+  "width": 1024,
+  "height": 1024,
+  "seed": 53460388,
+  "rand_device": "cpu",
+  "cfg_scale": 7.5,
+  "cfg_rescale_multiplier": 0,
+  "steps": 50,
+  "scheduler": "euler",
+  "model": {
+    "model_name": "stable-diffusion-xl-base-1-0",
+    "base_model": "sdxl",
+    "model_type": "main"
+  },
+  "strength": 0.75,
+  "init_image": "1bd674fa-99d8-4179-92a4-263807e443ec.png",
+  "positive_style_prompt": "cyberpunk girl with green long hair, glasses, (lizard sitting on shoulder)++, leather jacket, smiling in a space station digital art style",
+  "negative_style_prompt": "headset, big lips"
+}
+
+Base Image 1 Metadata
+
+{
+  "generation_mode": "sdxl_txt2img",
+  "positive_prompt": "cyberpunk girl with green long hair, glasses, lizard sitting on shoulder, leather jacket in a space station digital art style",
+  "negative_prompt": "girl as lizard, headset",
+  "width": 1024,
+  "height": 1024,
+  "seed": 3098924817,
+  "rand_device": "cpu",
+  "cfg_scale": 7.5,
+  "cfg_rescale_multiplier": 0,
+  "steps": 50,
+  "scheduler": "euler",
+  "model": {
+    "model_name": "stable-diffusion-xl-base-1-0",
+    "base_model": "sdxl",
+    "model_type": "main"
+  },
+  "positive_style_prompt": "cyberpunk girl with green long hair, glasses, lizard sitting on shoulder, leather jacket in a space station digital art style",
+  "negative_style_prompt": "girl as lizard, headset"
+}
