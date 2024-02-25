@@ -1,0 +1,22 @@
+AI Tool used: InvoeAI Community Edition
+
+{
+  "generation_mode": "sdxl_txt2img",
+  "positive_prompt": "beautiful cyberpunk girl with blue hair, leather jacket, smiling, (lizard on shoulder)++, modern glasses and close up on face digital art style",
+  "negative_prompt": "headset, tech on head",
+  "width": 1024,
+  "height": 1024,
+  "seed": 1695376856,
+  "rand_device": "cpu",
+  "cfg_scale": 7.5,
+  "cfg_rescale_multiplier": 0,
+  "steps": 50,
+  "scheduler": "euler",
+  "model": {
+    "model_name": "stable-diffusion-xl-base-1-0",
+    "base_model": "sdxl",
+    "model_type": "main"
+  },
+  "positive_style_prompt": "beautiful cyberpunk girl with blue hair, leather jacket, smiling, (lizard on shoulder)++, modern glasses and close up on face digital art style",
+  "negative_style_prompt": "headset, tech on head"
+}
