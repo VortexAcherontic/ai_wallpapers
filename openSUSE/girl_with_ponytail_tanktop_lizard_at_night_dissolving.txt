@@ -1,0 +1,36 @@
+{
+  "generation_mode": "sdxl_txt2img",
+  "positive_prompt": "(beautiful cyberpunk girl) and smirking and (green and blue long hair) and (pony tail) and tanktop and earrings and (lizard on shoulder)++ and (at night) and dissolving",
+  "negative_prompt": "two or more persons, tattoos",
+  "width": 1368,
+  "height": 768,
+  "seed": 3199729420,
+  "rand_device": "cpu",
+  "cfg_scale": 7.5,
+  "cfg_rescale_multiplier": 0,
+  "steps": 50,
+  "scheduler": "euler",
+  "model": {
+    "model_name": "stable-diffusion-xl-base-1-0",
+    "base_model": "sdxl",
+    "model_type": "main"
+  },
+  "loras": [
+    {
+      "lora": {
+        "model_name": "add-detail-xl",
+        "base_model": "sdxl"
+      },
+      "weight": 0.75
+    },
+    {
+      "lora": {
+        "model_name": "ral-dissolve-sdxl",
+        "base_model": "sdxl"
+      },
+      "weight": 1
+    }
+  ],
+  "positive_style_prompt": "(beautiful cyberpunk girl) and smirking and (green and blue long hair) and (pony tail) and tanktop and earrings and (lizard on shoulder)++ and (at night) and dissolving",
+  "negative_style_prompt": "two or more persons, tattoos"
+}
