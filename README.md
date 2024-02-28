@@ -11,3 +11,5 @@ Please keep thsi in mind.
 <img src="openSUSE/cyberpunk_girl_with_long_green_hair_and_lizard.jpg" />
 
 <img src="openSUSE/girl_with_blue_hair_glasses_and_lizard_on_shoulder.jpg" />
+
+<img src="openSUSE/girl_with_ponytail_tanktop_lizard_at_night_dissolving.jpg" />
